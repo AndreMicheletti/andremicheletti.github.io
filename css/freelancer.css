@@ -61,8 +61,8 @@ hr.small {
 .code-icon:after {
 	content: "\f121"!important;
 }
-.envelope-icon:after {
-	content: "\f0e0"!important;
+.tools-icon:after {
+	content: "\f0ad"!important;
 }
 .github-icon:after {
 	content: "\f09b"!important;
