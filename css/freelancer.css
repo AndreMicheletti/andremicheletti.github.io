@@ -276,6 +276,7 @@ section.success {
   background: none;
   box-shadow: none !important;
   resize: none;
+  color:#ffffff!important;
 }
 .floating-label-form-group label {
   display: block;
