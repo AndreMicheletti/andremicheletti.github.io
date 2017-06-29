@@ -52,24 +52,13 @@ hr.star-primary:after {
 hr.small {
   border-top: solid 2px;
 }
-.bookmark-icon:after {
-	content: "\f02e"!important;
-}
-.briefcase-icon:after {
-	content: "\f0b1"!important;
-}
-.code-icon:after {
-	content: "\f121"!important;
-}
-.tools-icon:after {
-	content: "\f0ad"!important;
-}
-.github-icon:after {
-	content: "\f09b"!important;
-}
-.archive-icon:after {
-	content:'\f187'!important;
-}
+.header-icon:after 		{ content: "\f121"!important; }
+.briefcase-icon:after 	{ content: "\f0b1"!important; }
+.code-icon:after 		{ content: "\f121"!important; }
+.tools-icon:after 		{ content: "\f0ad"!important; }
+.github-icon:after 		{ content: "\f09b"!important; }
+.archive-icon:after 	{ content: "\f187"!important; }
+
 hr.star-light {
   border-color: white;
 }
@@ -197,6 +186,9 @@ header .intro-text .skills {
 section {
   padding: 100px 0;
 }
+#services {
+  padding: 85px 0;
+}
 section h2 {
   margin: 0;
   font-size: 3em;
@@ -286,6 +278,9 @@ footer .footer-below {
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
+}
+.btn-alt {
+	background-color: #8c5f5f;
 }
 .btn-outline:hover,
 .btn-outline:focus,
@@ -502,4 +497,15 @@ div#maincontent {
 	height:100%;
 	width:100%;
 	max-height:158px!important;
+}
+.service-item {
+	margin-bottom:25px;
+}
+.service-item, .service-item p {
+	font-family:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+.service-item img {
+	max-width:150px;
+	min-width:64px;
 }
