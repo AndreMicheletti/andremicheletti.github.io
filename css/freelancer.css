@@ -412,6 +412,14 @@ fieldset[disabled] .btn-success.active {
   padding: 100px 0;
   text-align: center;
 }
+.portfolio-modal .btn-outline {
+	color:#8c5f5f!important;
+	border: solid 2px #8c5f5f!important;
+}
+.portfolio-modal .btn-outline:hover {
+	color:white!important;
+	background-color:#8c5f5f;
+}
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
@@ -461,6 +469,11 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+.portfolio-modal {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+}
 #skipnav a {
   padding: 6px;
   position: absolute;
@@ -494,7 +507,7 @@ div#maincontent {
 	margin-bottom:10px!important;
 }
 .portfolio-modal img {
-	max-height:360px!important;
+	max-height:250px!important;
 }
 .portfolio-item img {
 	height:100%;
@@ -511,4 +524,23 @@ div#maincontent {
 .service-item img {
 	max-width:150px;
 	min-width:64px;
+}
+#about a {
+	color:#ffffff;
+	font-size:20px;
+	transition:all 0.4s ease-in-out;
+}
+#about .btn:hover {
+	color:#8c5f5f;
+}
+strong {
+	color:#9b88c5;
+}
+.mylist, .mylist li {
+	margin:0 auto;
+	text-align:left;
+	font-size:17px;
+}
+pre, code {
+	text-align:left!important;
 }
