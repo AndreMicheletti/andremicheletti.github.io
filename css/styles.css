@@ -21,29 +21,68 @@
 .mini-pixel { font-family: "MiniPixel"; }
 .vcr { font-family: "VCR"; }
 
-.punk-outline {
-	font-family: "PixelType";
-	color: rgb(44 103 42);
-	text-shadow:
-       0px 3px 0 #53e27f,
-       0px 1px 0 #53e27f,
-       0px 1px 0 #53e27f;
+em {
+	background: linear-gradient(45deg, #4700c1, #de68ee);
+	color: white;
+	padding: 0.05rem 0.2rem;
+	font-weight: 500;
 }
 
 .glitch-outline {
 	font-family: "PixelType";
-	color: black;
+	color: #333;
 	/* -webkit-text-stroke: 1px black; */
 	text-shadow:
        -4px 1px 0 #53d1e2,
        4px -1px 0 #de68ee;
 }
 
-.small-glitch-outline {
-	font-family: "PixelType";
-	color: black;
-	/* -webkit-text-stroke: 1px black; */
-	text-shadow:
-       -2px 1px 0 #53d1e2,
-       2px -1px 0 #de68ee;
+body {
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.content {
+	position: relative;
+}
+
+section {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.content h2 {
+	z-index: 2;
+	position: sticky;
+	top: 0px;
+	padding: 2rem 0 1.25rem 0;
+	background: white;
+	color: #333;
+	font-family: "Jura";
+}
+
+@media print {
+
+  body .toc {
+    display: none;
+  }
+
+  em {
+    padding: 0;
+  }
+
+  .screen-only {
+    display: none;
+  }
+  .print-only {
+    display: block;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+    break-after: always;
+  }
 }
