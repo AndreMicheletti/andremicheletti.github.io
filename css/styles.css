@@ -1,9 +1,49 @@
 
 @font-face {
 	font-family: "Jura";
-	src: url("/fonts/Jura-VariableFont.ttf") format('truetype');
+	src: url("fonts/Jura-VariableFont.ttf") format('truetype');
+}
+@font-face {
+	font-family: "PixelType";
+	src: url("fonts/PixelType.ttf") format('truetype');
+}
+@font-face {
+	font-family: "MiniPixel";
+	src: url("fonts/MiniPixel7.ttf") format('truetype');
+}
+@font-face {
+	font-family: "VCR";
+	src: url("fonts/VCR_OSD.ttf") format('truetype');
 }
 
-.jura {
-	font-family: "Jura";
+.jura { font-family: "Jura"; }
+.pixel-type { font-family: "PixelType"; }
+.mini-pixel { font-family: "MiniPixel"; }
+.vcr { font-family: "VCR"; }
+
+.punk-outline {
+	font-family: "PixelType";
+	color: rgb(44 103 42);
+	text-shadow:
+       0px 3px 0 #53e27f,
+       0px 1px 0 #53e27f,
+       0px 1px 0 #53e27f;
+}
+
+.glitch-outline {
+	font-family: "PixelType";
+	color: black;
+	/* -webkit-text-stroke: 1px black; */
+	text-shadow:
+       -4px 1px 0 #53d1e2,
+       4px -1px 0 #de68ee;
+}
+
+.small-glitch-outline {
+	font-family: "PixelType";
+	color: black;
+	/* -webkit-text-stroke: 1px black; */
+	text-shadow:
+       -2px 1px 0 #53d1e2,
+       2px -1px 0 #de68ee;
 }
