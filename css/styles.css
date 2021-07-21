@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: "Jura";
+	src: url("/fonts/Jura-VariableFont.ttf") format('truetype');
+}
+
+.jura {
+	font-family: "Jura";
+}
