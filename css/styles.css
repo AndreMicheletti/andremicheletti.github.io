@@ -28,6 +28,29 @@ em {
 	font-weight: 500;
 }
 
+.glitch-box {
+	border: 2px solid #4700c1;
+	transition: box-shadow 0.2s;
+}
+
+.glitch-box:hover {
+	box-shadow:
+       -3px 0px 0 #53d1e2,
+       3px 0px 0 #de68ee;
+}
+
+.full-glitch-box {
+	background: linear-gradient(45deg, #4700c1, #de68ee);
+	color: white;
+	transition: box-shadow 0.2s;
+}
+
+.full-glitch-box:hover {
+	box-shadow:
+       -5px 2px 0 #de68ee,
+       5px -2px 0 #53d1e2;
+}
+
 .glitch-outline {
 	font-family: "PixelType";
 	color: #333;
@@ -35,6 +58,16 @@ em {
 	text-shadow:
        -4px 1px 0 #53d1e2,
        4px -1px 0 #de68ee;
+}
+
+.glitch-outline-hover {
+	transition: text-shadow 0.2s;
+}
+
+.glitch-outline-hover:hover {
+	text-shadow:
+       -1px 0px 0 #53d1e2,
+       1px 0px 0 #de68ee;
 }
 
 body {
