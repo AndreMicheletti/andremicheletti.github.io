@@ -1,73 +1,91 @@
-
 @font-face {
-	font-family: "Jura";
-	src: url("fonts/Jura-VariableFont.ttf") format('truetype');
-}
-@font-face {
-	font-family: "PixelType";
-	src: url("fonts/PixelType.ttf") format('truetype');
-}
-@font-face {
-	font-family: "MiniPixel";
-	src: url("fonts/MiniPixel7.ttf") format('truetype');
-}
-@font-face {
-	font-family: "VCR";
-	src: url("fonts/VCR_OSD.ttf") format('truetype');
+  font-family: "Jura";
+  src: url("fonts/Jura-VariableFont.ttf") format('truetype');
 }
 
-.jura { font-family: "Jura"; }
-.pixel-type { font-family: "PixelType"; }
-.mini-pixel { font-family: "MiniPixel"; }
-.vcr { font-family: "VCR"; }
+@font-face {
+  font-family: "PixelType";
+  src: url("fonts/PixelType.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "MiniPixel";
+  src: url("fonts/MiniPixel7.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "VCR";
+  src: url("fonts/VCR_OSD.ttf") format('truetype');
+}
+
+.jura {
+  font-family: "Jura";
+}
+
+.pixel-type {
+  font-family: "PixelType";
+}
+
+.mini-pixel {
+  font-family: "MiniPixel";
+}
+
+.vcr {
+  font-family: "VCR";
+}
+
+a {
+  color: #4700c1;
+  text-decoration: underline;
+}
 
 em {
-	background: linear-gradient(45deg, #4700c1, #de68ee);
-	color: white;
-	padding: 0.05rem 0.2rem;
-	font-weight: 500;
+  background: linear-gradient(45deg, #4700c1, #de68ee);
+  color: white;
+  padding: 0.05rem 0.2rem;
+  font-weight: 500;
 }
 
 .glitch-box {
-	border: 2px solid #4700c1;
-	transition: box-shadow 0.2s;
+  border: 2px solid #4700c1;
+  transition: box-shadow 0.2s;
 }
 
 .glitch-box:hover {
-	box-shadow:
-       -3px 0px 0 #53d1e2,
-       3px 0px 0 #de68ee;
+  box-shadow:
+    -3px 0px 0 #53d1e2,
+    3px 0px 0 #de68ee;
 }
 
 .full-glitch-box {
-	background: linear-gradient(45deg, #4700c1, #de68ee);
-	color: white;
-	transition: box-shadow 0.2s;
+  background: linear-gradient(45deg, #4700c1, #de68ee);
+  color: white;
+  transition: box-shadow 0.2s;
 }
 
 .full-glitch-box:hover {
-	box-shadow:
-       -5px 2px 0 #de68ee,
-       5px -2px 0 #53d1e2;
+  box-shadow:
+    -5px 2px 0 #de68ee,
+    5px -2px 0 #53d1e2;
 }
 
 .glitch-outline {
-	font-family: "PixelType";
-	color: #333;
-	/* -webkit-text-stroke: 1px black; */
-	text-shadow:
-       -4px 1px 0 #53d1e2,
-       4px -1px 0 #de68ee;
+  font-family: "PixelType";
+  color: #333;
+  /* -webkit-text-stroke: 1px black; */
+  text-shadow:
+    -4px 1px 0 #53d1e2,
+    4px -1px 0 #de68ee;
 }
 
 .glitch-outline-hover {
-	transition: text-shadow 0.2s;
+  transition: text-shadow 0.2s;
 }
 
 .glitch-outline-hover:hover {
-	text-shadow:
-       -1px 0px 0 #53d1e2,
-       1px 0px 0 #de68ee;
+  text-shadow:
+    -1px 0px 0 #53d1e2,
+    1px 0px 0 #de68ee;
 }
 
 body {
@@ -79,22 +97,22 @@ body {
 }
 
 .content {
-	position: relative;
+  position: relative;
 }
 
 section {
-	margin-bottom: 10px;
-	display: block;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .content h2 {
-	z-index: 2;
-	position: sticky;
-	top: 0px;
-	padding: 2rem 0 1.25rem 0;
-	background: white;
-	color: #333;
-	font-family: "Jura";
+  z-index: 2;
+  position: sticky;
+  top: 0px;
+  padding: 2rem 0 1.25rem 0;
+  background: white;
+  color: #333;
+  font-family: "Jura";
 }
 
 @media print {
@@ -110,6 +128,7 @@ section {
   .screen-only {
     display: none;
   }
+
   .print-only {
     display: block;
   }
