@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>André Micheletti | Software Builder</title>
+  <title>Privacy Policy | André Micheletti</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="img/favicon.ico" rel="shortcut icon">
@@ -18,9 +18,10 @@
         <h1 class="text-4xl font-semibold">Privacy Policy</h1>
         <br>
         <p>
-          André Luiz Micheletti built the Knife Thrower app as a Commercial app. This SERVICE is provided by André Luiz
-          Micheletti and is
-          intended for use as is.
+          André Luiz Micheletti built the <b class="appName">Knife Master</b> app as a Commercial app. This SERVICE is
+          provided by André
+          Luiz
+          Micheletti and is intended for use as is.
           <br /><br />
           This page is used to inform visitors regarding my policies with the collection, use, and disclosure of
           Personal Information if anyone decided to use my Service.
@@ -111,6 +112,13 @@
       </section>
     </main>
   </div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const appName = params.get('app') || 'Knife Master';
+    for (const el of document.getElementsByClassName('appName')) {
+      el.innerHTML = appName;
+    }
+  </script>
 </body>
 
 </html>
