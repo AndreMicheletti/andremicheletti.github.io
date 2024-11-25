@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>End-User License Agreement (EULA) | André Micheletti</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="img/favicon.ico" rel="shortcut icon">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <style>
+    h2 {
+      color: black;
+      font-weight: 600;
+    }
+    ul {
+      list-style-type: circle;
+      text-indent: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container max-w-screen-md mx-auto m-9 px-4">
+    <main class="content">
+
+      <section class="page-break-after">
+        <h1 class="text-4xl font-semibold">End-User License Agreement (EULA)</h1>
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+        This End-User License Agreement ("EULA") is a legal agreement between you ("User") and André Micheletti ("Licensor") regarding 
+        your use of the browser-based game "<b class="appName">Knife Master</b>" ("Game"). 
+        </p>
+        <p>
+        By accessing, playing, or using the Game, you agree to the terms of this EULA.
+        If you do not agree, you must not use or access the Game.
+        </p>
+
+        <br>
+        <h2>2. License Grant</h2>
+        <p>
+        The Licensor grants you a limited, non-exclusive, non-transferable, and revocable license to access and play the Game through a compatible web browser, strictly for personal, non-commercial use.
+        </p>
+        <p>
+        All other rights are reserved by the Licensor.
+        </p>
+
+        <br>
+        <h2>3. Intellectual Property Rights</h2>
+        <p>
+        All rights, title, and interest in the Game, including but not limited to copyrights, trademarks, trade secrets, and other intellectual property, are the sole property of the Licensor.
+        </p>
+        <p>
+        This EULA does not transfer any ownership rights to the User.
+        </p>
+
+        <br>
+        <h2>4. Usage Restrictions</h2>
+        <p>You agree NOT to:</p>
+        <ul>
+          <li>
+          Copy, modify, distribute, sublicense, or create derivative works of the Game or its content without prior written permission.
+          </li>
+          <li>
+          Reverse engineer, decompile, or disassemble any part of the Game or attempt to extract its source code.
+          </li>
+          <li>
+          Use the Game for commercial purposes, including advertising, promotions, or paid events, without explicit consent.
+          </li>
+          <li>
+          Exploit bugs, cheats, or unauthorized tools to gain advantages or harm the experience of other users.
+          </li>
+          <li>
+          Use automated systems, bots, or scripts to interact with the Game.
+          </li>
+        </ul>
+
+        <br>
+        <h2>5. Access and Updates</h2>
+        <p>
+        The Game is provided online and may require a stable internet connection to access.
+        </p>
+        <p>
+        The Licensor reserves the right to update, modify, or discontinue the Game or its features at any time without prior notice.
+        </p>
+
+        <br>
+        <h2>6. Warranty Disclaimer</h2>
+        <p>
+        The Game is provided "as is" and "as available," without warranties of any kind, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+        </p>
+        <p>
+        The Licensor does not guarantee uninterrupted access or that the Game will be error-free.
+        </p>
+
+        <br>
+        <h2>7. Limitation of Liability</h2>
+        <p>
+        To the fullest extent permitted by law, the Licensor shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or related to your use or inability to use the Game, including but not limited to loss of data, revenue, or profits.
+        </p>
+
+        <br>
+        <h2>8. Termination</h2>
+        <p>
+        This EULA is effective until terminated.
+        Your rights under this EULA will terminate immediately if you violate any of its terms.
+        </p>
+        <p>
+        Upon termination, you must cease all use of the Game.
+        </p>
+
+        <br>
+        <h2>9. Applicable Law</h2>
+        <p>
+        This EULA shall be governed by and construed in accordance with the laws of Brazil.
+        Any disputes shall be exclusively resolved in the courts of Florianópolis.
+        </p>
+
+        <br>
+        <h2>10. Contact Information</h2>
+        <p>
+        For questions or concerns about this EULA, please contact us at andreluizmtmicheletti@gmail.com.
+        </p>
+      </section>
+    </main>
+  </div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const appName = params.get('app') || 'Knife Master';
+    for (const el of document.getElementsByClassName('appName')) {
+      el.innerHTML = appName;
+    }
+  </script>
+</body>
+
+</html>

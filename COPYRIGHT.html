@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>COPYRIGHT | André Micheletti</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="img/favicon.ico" rel="shortcut icon">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container max-w-screen-md mx-auto m-9 px-4">
+    <main class="content">
+
+      <section class="page-break-after">
+        <h1 class="text-4xl font-semibold">COPYRIGHT</h1>
+        <br>
+
+        <p>Copyright © 2024 André Micheletti. All rights reserved.</p>
+        <br>
+        <p>
+          This game and all related content, including but not limited to software, source code,
+          graphics, audio, text, designs and names, are protected by copyright and other applicable laws.
+        </p>
+        <p>
+          Any unauthorized reproduction, redistribution, modification or use is strictly prohibited without explicit written permission from the copyright holder.
+        </p>
+        <br>
+        <p><strong>
+        <b class="appName">Knife Master</b> is a product developed by André Micheletti.
+        </strong></p>
+        
+        <br>
+        <br>
+      </section>
+    </main>
+  </div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const appName = params.get('app') || 'Knife Master';
+    for (const el of document.getElementsByClassName('appName')) {
+      el.innerHTML = appName;
+    }
+  </script>
+</body>
+
+</html>
